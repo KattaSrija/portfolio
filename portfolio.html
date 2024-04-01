@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Srija-portfolio</title>
+		<link rel="stylesheet"  href="styles2.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	</head>
+	<body>
+	<header>
+		<nav>
+			<h1>Srija</h1>
+       
+			<ul class="show">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+			<button id="btn">
+				<i class="fa-solid fa-bars"></i>
+			</button>
+		</nav>
+	</header>
+
+	<section>
+		<div class="s-container">
+			<div class="content">
+			<span class="subtitle">
+			Hello
+		</span>		
+			<h1 class="title">
+				I'm <span>Srija</span><br>
+			 a student of Andhra University.</h1>
+			<p class="description">
+			Welcome to my student portfolio! I'm Srija, an aspiring web developer and I'm currently pursuing my B.Tech in computer science and engineering at Andhra University.
+		</p>
+			<div class="buttons">
+				<a href="mailto:kattasrija2004@gmail.com">Hire me</a>
+				<button id="btn2">Portfolio</button>
+			</div>
+		</div> 
+		<div class="image">
+			<img src="https://2.bp.blogspot.com/-mhyE427gwfk/TwdiQdysEYI/AAAAAAAAADA/4gUxnmqRcKc/s1600/woman_employee.jpg" alt="photo">
+		</div>
+		</div>
+	</section>
+	</body>
+    <script>
+        const btn= document.getElementById("btn")
+        btn.aaddEventListener("click", () => {
+            document.querySelector("head ul").classList.toggle("show")})
+    </script>
+	</html>
